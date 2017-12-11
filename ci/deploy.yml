@@ -9,6 +9,8 @@ image_resource:
 
 inputs:
 - name: java-buildpack-metric-writer
+outputs:
+- name: output
 
 caches:
 - path: maven
